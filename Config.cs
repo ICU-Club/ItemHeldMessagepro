@@ -1,5 +1,5 @@
+// Config.cs
 using Newtonsoft.Json;
-using Newtonsoft.Json.Converters;
 
 namespace ItemHeldMessage;
 
@@ -183,7 +183,7 @@ public sealed class MessageData
     /// RGB颜色数组，长度应为3，范围0-255
     /// 如 [255, 0, 0] 表示红色
     /// </summary>
-    [JsonProperty("颜色", ItemConverterType = typeof(StringEnumConverter))]
+    [JsonProperty("颜色")]
     public int[] Color { get; set; } = [255, 255, 255];
 }
 
