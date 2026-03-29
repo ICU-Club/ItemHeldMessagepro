@@ -490,7 +490,7 @@ public class ItemHeldMessagePlugin : TerrariaPlugin
     }
     #endregion
 
-    #region 玩家事件与工具方法（保持不变）
+    #region 
 
     private void OnGreet(GreetPlayerEventArgs args)
     {
